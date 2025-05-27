@@ -1,8 +1,15 @@
 <script setup lang="ts">
+
+import { CommonProps } from '@/core';
+
+export type Props = Pick<CommonProps, 'level'>;
+
+defineProps<Props>();
+
 </script>
 
 <template>
-    <button></button>
+    <button :class="level"><slot /></button>
 </template>
 
 <style scoped>
@@ -34,7 +41,5 @@
     button.critical{
        background-color:crimson;
     }
-
-
 
 </style>

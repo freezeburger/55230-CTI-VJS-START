@@ -60,3 +60,10 @@ export type TimeExpected = {
 export type CurrencyAmount = number;
 
 export type Civility = "Madame" | "Monsieur" ;
+
+
+
+
+/* const isValidTextShort = (v:TextShort):v is TextShort =>{
+    return typeof v === 'string' && v.length < 16 ;
+} */
