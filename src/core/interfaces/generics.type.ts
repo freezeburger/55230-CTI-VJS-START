@@ -33,3 +33,28 @@ export type EmailAM = `${string}@am.fr`;
  * Unique identifier for item of the same collection
  */
 export type UniqueId = number;
+
+/**
+ * Such as "Date.now()" returned value;
+ */
+export type TimeStamp = number;
+
+
+/**
+ * Time data should always be represented this way;
+ */
+export type TimeRoot = {
+    creationDate:TimeStamp;
+}
+
+export type TimeExpected = {
+    dueDate:TimeStamp;
+} & TimeRoot;
+
+/**
+ * A CurrencyAmount should:
+ * - Always be positive.
+ * - Always be displayed as (nn.nn)(Currency)
+ * - Does not holds the Currency symbol.
+ */
+export type CurrencyAmount = number;
