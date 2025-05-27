@@ -58,3 +58,5 @@ export type TimeExpected = {
  * - Does not holds the Currency symbol.
  */
 export type CurrencyAmount = number;
+
+export type Civility = "Madame" | "Monsieur" ;
