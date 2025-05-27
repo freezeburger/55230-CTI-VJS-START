@@ -1,3 +1,4 @@
+import { PatientDTO } from "../dto/patient.dto";
 import { RootDTO } from "../dto/root.dto";
 import { TimeStamp } from "../interfaces/generics.type";
 
@@ -11,6 +12,8 @@ export type FromDTO<T> = {
     ? FromDTO<T[K]>
     : T[K];
 };
+
+
 
 // Conversion d’une entité vers un DTO (Date -> TimeStamp)
 export type ToDTO<T> = {
@@ -28,3 +31,6 @@ export interface EntityMapper<D extends RootDTO> {
     serialize(entity: FromDTO<D> ): D;
     unserialize(dto: D): FromDTO<D>;
 }
+
+
+type PatientMapper = EntityMapper<PatientDTO>

@@ -1,4 +1,4 @@
-import { Email, TextShort } from "./generics.type"
+import { Email, TextShort } from "../interfaces/generics.type"
 
 export interface CrendentialsDTO{
     email:Email;
