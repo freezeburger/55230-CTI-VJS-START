@@ -1,16 +1,15 @@
-<script setup lang="ts">
 
-import { CommonProps } from '@/core';
-
-export type Props = Pick<CommonProps, 'level'>;
-
-defineProps<Props>();
-
-</script>
 
 <template>
     <button :class="level"><slot /></button>
 </template>
+
+<script setup lang="ts">
+import { CommonProps } from '@/core';
+export type Props = Pick<CommonProps, 'level'>;
+
+defineProps<Props>();
+</script>
 
 <style scoped>
     button{

@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import { Title } from '@/core';
-
-defineProps<{title:Title}>();
-
-</script>
-
 <template>
     <main>
         <h1 v-text="title"></h1>
@@ -13,6 +6,13 @@ defineProps<{title:Title}>();
         <slot />
     </main>
 </template>
+
+<script setup lang="ts">
+import { Title } from '@/core';
+
+defineProps<{title:Title}>();
+
+</script>
 
 <style scoped>
 </style>

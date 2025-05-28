@@ -3,7 +3,7 @@ import * as Views from '@/views';
 </script>
 
 <template>
-  <Views.Home />
+  <Views.Patient />
 </template>
 
 <style scoped>
