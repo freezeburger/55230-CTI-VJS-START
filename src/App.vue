@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import * as UI from '@ui';
+import * as Views from '@/views';
 </script>
 
 <template>
-  <UI.Header size="big">Application</UI.Header>
+  <Views.Home />
 </template>
 
 <style scoped>
