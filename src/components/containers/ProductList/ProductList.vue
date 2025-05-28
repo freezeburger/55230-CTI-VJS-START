@@ -5,7 +5,7 @@ const logic = useLogic()
 </script>
 
 <template>
-  <div class="{{pascalCase name}}">
+  <div class="ProductList">
     <slot />
   </div>
 </template>

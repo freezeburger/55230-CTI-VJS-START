@@ -3,9 +3,9 @@ import * as Layouts from '@/components/layouts'
 </script>
 
 <template>
-  <Layouts.Default title="{{pascalCase name}}">
+  <Layouts.PageSimple title="Home">
         
-         <h1>{{pascalCase name}} Page</h1>
+         <h1>Product Page</h1>
 
-    </Layouts.Default>
+   </Layouts.PageSimple>
 </template>

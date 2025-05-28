@@ -3,11 +3,11 @@ import * as UI from '@ui'
 </script>
 
 <template>
-  <div class="{{pascalCase name}}Layout">
+  <div class="PageSimpleLayout">
     <slot />
   </div>
 </template>
 
 <style scoped>
-.{{pascalCase name}}Layout {}
+.PageSimpleLayout {}
 </style>

@@ -16,7 +16,7 @@ module.exports = function (plop) {
     {
       type: 'layout',
       path: 'src/components/layouts',
-      suffix: 'Layout',
+      suffix: '',
       templates: [
         {
           path: '{{pascalCase name}}.vue',

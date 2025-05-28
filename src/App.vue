@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import * as Views from '@/views';
+
 </script>
 
 <template>

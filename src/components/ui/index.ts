@@ -4,3 +4,4 @@ export { default as Main } from './Main.vue'
 export { default as Footer } from './Footer.vue'
 
 // PLOP_INSERT_MARKER
+export { default as Card } from './Card.vue'
